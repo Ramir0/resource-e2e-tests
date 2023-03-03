@@ -16,8 +16,10 @@ import static org.junit.Assert.*;
 public class CreateResourceSteps {
     private static final String RESOURCE_SERVICE_URL = "http://localhost:8081";
     private static final String BASE_FILES_PATH = "src/test/resources/files/";
+
     private RequestSpecification request;
     private Response response;
+
     private File file;
     private Long resourceId;
 
